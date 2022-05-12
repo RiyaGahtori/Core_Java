@@ -4,7 +4,7 @@ Formula :
 area = length * breadth
  */
 
-package IntroductionToJava.InputOutput;
+package J1_IntroductionToJava.InputOutput;
 import java.util.Scanner;
 
 public class P5 {

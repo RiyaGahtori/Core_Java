@@ -1,5 +1,5 @@
 //3.	Write a program to enter two numbers and perform all arithmetic operations.
-package IntroductionToJava.InputOutput;
+package J1_IntroductionToJava.InputOutput;
 import java.util.Scanner;
 
 public class P3 {

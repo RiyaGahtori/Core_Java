@@ -1,5 +1,5 @@
 //1.	Write a program to perform input/output of all basic data types.
-package IntroductionToJava.InputOutput;
+package J1_IntroductionToJava.InputOutput;
 
 public class P1 {
     public static void main (String[] args)

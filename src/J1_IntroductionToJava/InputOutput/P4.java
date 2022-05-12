@@ -4,7 +4,7 @@
 Suppose a, b, c, d are the four sides of rectangle [a=c and b=d]
 Perimeter Of Rectangle= a+ b+ c+ d= a+ b+ a+ b= 2(a + b).*/
 
-package IntroductionToJava.InputOutput;
+package J1_IntroductionToJava.InputOutput;
 import java.util.Scanner;
 
 public class P4 {
