@@ -2,7 +2,7 @@
 /*
 Fahrenheit and Celsius are the measures of temperature having Unit in degrees as oF, oC respectively.
 Formula :
-T(oF)   =  (T(oC)   ×  9)/5) + 32
+T(°F)   =  (T(°C)   ×  9)/5) + 32
  */
 
 package J1_IntroductionToJava.InputOutput;
@@ -16,7 +16,7 @@ public class P8 {
         C = temperature.nextFloat();
         System.out.println("____________________________________");
         F = ((C*9)/5)+32;
-        System.out.println("Temperature in Fahrenheit = " + F + " oF");
+        System.out.println("Temperature in Fahrenheit = " + F + " °F");
         System.out.println("____________________________________");
     }
 }
