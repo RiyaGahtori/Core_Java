@@ -1,7 +1,7 @@
 //9.	Write a program to enter temperature in Fahrenheit and convert to Celsius
 /*
 Formula :
-T(oC)   =  ((T(oF)  -  32  ) ×  5)/9
+T(°C)   =  ((T(oF)  -  32  ) ×  5)/9
  */
 
 package J1_IntroductionToJava.InputOutput;
@@ -15,7 +15,7 @@ public class P9 {
         F = Temperature.nextFloat();
         System.out.println("___________________________________________");
         C  = ((F-32)*5)/9;
-        System.out.println("Temperature in Celsius is : " + C + " oC");
+        System.out.println("Temperature in Celsius is : " + C + " °C");
         System.out.println("___________________________________________");
     }
 }
