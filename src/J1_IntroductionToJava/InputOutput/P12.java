@@ -18,5 +18,6 @@ public class P12 {
         //By using the Math.sqrt() function
         sq = Math.sqrt(num);
         System.out.println("The Square root of "+num+" is "+sq);
+        System.out.println("____________________________________");
     }
 }
