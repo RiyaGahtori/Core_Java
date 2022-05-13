@@ -21,11 +21,11 @@ public class P10 {
         y = (d / 365) ;
         w = (d % 365) / 7;
         d = (d % 365) % 7;
-        System.out.println("__________________________________");
+        System.out.println("___________________________________");
         System.out.print(y + " year , ");
         System.out.print(w + " weeks and ");
         System.out.println(d + " days");
-        System.out.println("__________________________________");
+        System.out.println("___________________________________");
     }
 }
 
