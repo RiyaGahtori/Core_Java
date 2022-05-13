@@ -14,6 +14,7 @@ public class P12 {
         System.out.print("Enter the number : ");
         num = number.nextDouble();
 
+        System.out.println("____________________________________");
         //By using the Math.sqrt() function
         sq = Math.sqrt(num);
         System.out.println("The Square root of "+num+" is "+sq);
