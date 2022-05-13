@@ -19,5 +19,6 @@ public class P13 {
         System.out.println("______________________________________");
         c = 180 - (a+b);
         System.out.println("Third angle of the triangle : " +c);
+        System.out.println("______________________________________");
     }
 }
