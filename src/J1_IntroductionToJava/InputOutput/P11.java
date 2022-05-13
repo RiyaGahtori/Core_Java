@@ -16,7 +16,7 @@ public class P11 {
         System.out.print("Enter the Exponent value : ");
         y = by.nextInt();
         System.out.println("__________________________________");
-        r = (int)Math.pow(b,y);
+        r = (int)Math.pow(b,y); //By using the Math.pow() function
         System.out.println("The power of number "+ b+ "^" +y +" is : " + r);
         System.out.println("__________________________________");
     }
