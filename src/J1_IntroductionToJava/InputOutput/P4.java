@@ -15,6 +15,7 @@ public class P4 {
         l = lb.nextInt();
         System.out.print("Enter the breadth of rectangle : ");
         b = lb.nextInt();
+        System.out.println("----------------------------------------------------------");
         perimeter  = 2*(l+b);
         System.out.println("Perimeter of Rectangle is: " +perimeter);
     }
