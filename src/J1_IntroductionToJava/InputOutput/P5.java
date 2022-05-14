@@ -15,9 +15,9 @@ public class P5 {
   l = lb.nextInt();
   System.out.print("Enter the breadth of rectangle : ");
   b = lb.nextInt();
-  System.out.println("_______________________________________");
+  System.out.println("________________________________");
   area = l*b;
   System.out.println("Area of rectangle is : " +area);
-  System.out.println("_______________________________________");
+  System.out.println("________________________________");
  }
 }
