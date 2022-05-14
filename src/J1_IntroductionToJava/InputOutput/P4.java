@@ -18,5 +18,6 @@ public class P4 {
         System.out.println("----------------------------------------------------------");
         perimeter  = 2*(l+b);
         System.out.println("Perimeter of Rectangle is: " +perimeter);
+        System.out.println("----------------------------------------------------------");
     }
 }
