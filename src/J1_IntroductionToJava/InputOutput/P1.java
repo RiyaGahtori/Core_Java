@@ -55,5 +55,6 @@ public class P1 {
         System.out.println("Marks of third student: " +marksOfStudents[2]);
         System.out.println("Marks of fourth student: " +marksOfStudents[3]);
         System.out.println("Marks of fifth student: " +marksOfStudents[4]);
+        System.out.println("-------------------------------------");
     }
 }
