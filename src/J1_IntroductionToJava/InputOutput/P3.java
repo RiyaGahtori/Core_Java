@@ -22,13 +22,13 @@ public class P3 {
 
         // Print result to console.
         System.out.println(" ");
-        System.out.println("-----------------------------------------------------------------");
+        System.out.println("----------------------------------------------------------");
         System.out.println("The sum of two numbers a and b is : "             + sum);
         System.out.println("The Difference between two numbers a and b is : " + difference);
         System.out.println("The product of two numbers a and b is : "         + product);
         System.out.println("The quotient of two numbers a and b is : "        + quotient);
         System.out.println("The modulo of two numbers a and b is : "          + modulo);
-        System.out.println("-----------------------------------------------------------------");
+        System.out.println("----------------------------------------------------------");
 
     }
 }
