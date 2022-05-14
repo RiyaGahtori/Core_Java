@@ -27,7 +27,7 @@ public class P1 {
         System.out.println("Float : " + myFloat);
         System.out.println("Double : " + myDouble);
         System.out.println("Boolean data type is : " + myBool);
-        System.out.println("-------------------------------------");
+        System.out.println("----------------------------------");
 
         /* Declaration of non-primitive data types  --> Strings, Arrays*/
         //Java Strings
@@ -55,6 +55,6 @@ public class P1 {
         System.out.println("Marks of third student: " +marksOfStudents[2]);
         System.out.println("Marks of fourth student: " +marksOfStudents[3]);
         System.out.println("Marks of fifth student: " +marksOfStudents[4]);
-        System.out.println("-------------------------------------");
+        System.out.println("----------------------------------");
     }
 }
