@@ -23,7 +23,7 @@ The JVM performs the following main tasks:
 -Provides runtime environment
  */
 
-//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
                                                /* Java program compilation and execution process */
 /* Java, being a platform-independent programming language, does not work on the one-step compilation.
