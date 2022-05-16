@@ -23,7 +23,7 @@ The JVM performs the following main tasks:
 -Provides runtime environment
  */
 
-//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
                                                /* Java program compilation and execution process */
 /* Java, being a platform-independent programming language, does not work on the one-step compilation.
@@ -67,4 +67,18 @@ whose job is to check that the instructions don’t perform damaging actions.
 1. Save         ->  class-name.java
 2. Compilation  ->  javac class-name.java
 3. Execution    ->  java class-name
+ */
+                                         //----------------------------------------------------------//
+/* Java Naming Convention =>
+--> CamelCase naming conventions - If the name is combined with two words, the second word will start with uppercase letter always.
+examples : actionPerformed(), firstName, jenkinsServer, iterationCount, gitRepository
+
+-- PascalCase - Pascal case is always consistent with camel case rules. But the difference is that Pascal case requires the first letter to be uppercase as well, while camel case does not.
+examples : OutOfMemoryException, DateFormat, DatabaseConnection, LinkedList, EventHandler, etc.
+
+-- The term "lower camel case" is often used when a variable starts with a lowercase letter (jenkinsServer),
+ while "upper camel case" is often used to refer to variables that comply to Pascal case rules (JenkinsServer).
+
+ **=> Java follows lower camel-case syntax for naming the Method, Package, and Variable.
+ **=> Java follows upper camel-case syntax for naming the Class, Interface, and Constant.
  */
