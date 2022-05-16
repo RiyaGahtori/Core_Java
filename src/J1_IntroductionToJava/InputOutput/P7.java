@@ -18,6 +18,6 @@ public class P7 {
         System.out.println("___________________________________________");
         System.out.println("Length in Meter      = " + meter + " meter");
         System.out.println("Length in Kilometer  = " + kilometer + " kilometer");
-        System.out.println("___________________________________________");
+        System.out.println("_________________________________________");
     }
 }
