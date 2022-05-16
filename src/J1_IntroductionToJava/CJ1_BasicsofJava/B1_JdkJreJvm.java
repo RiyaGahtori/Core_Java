@@ -22,7 +22,11 @@ The JVM performs the following main tasks:
 -Provides runtime environment
  */
 
+// Syntax :
 package J1_IntroductionToJava.CJ1_BasicsofJava;
 
 public class B1_JdkJreJvm {
+    public static void main(String[] args){
+        System.out.print("Hello everybody! I am Riri ");
+    }
 }
