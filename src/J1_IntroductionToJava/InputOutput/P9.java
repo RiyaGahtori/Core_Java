@@ -13,9 +13,9 @@ public class P9 {
         Scanner Temperature = new Scanner(System.in);
         System.out.print("Enter the temperature in Fahrenheit : ");
         F = Temperature.nextFloat();
-        System.out.println("_______________________________________");
+        System.out.println("__________________________________________");
         C  = ((F-32)*5)/9;
         System.out.println("Temperature in Celsius is : " + C + " °C");
-        System.out.println("_______________________________________");
+        System.out.println("__________________________________________");
     }
 }
