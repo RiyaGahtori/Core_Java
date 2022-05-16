@@ -26,7 +26,7 @@ The JVM performs the following main tasks:
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
                                                /* Java program compilation and execution process */
-/* Java, being a platform-independent programming language, doesn’t work on the one-step compilation.
+/* Java, being a platform-independent programming language, does not work on the one-step compilation.
 Instead, it involves a two-step execution,
 --> first through an OS-independent compiler;
 --> second, in a virtual machine (JVM) which is custom-built for every operating system.
