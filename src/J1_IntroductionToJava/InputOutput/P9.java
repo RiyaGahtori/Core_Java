@@ -16,6 +16,6 @@ public class P9 {
         System.out.println("_______________________________________");
         C  = ((F-32)*5)/9;
         System.out.println("Temperature in Celsius is : " + C + " °C");
-        System.out.println("___________________________________________");
+        System.out.println("_______________________________________");
     }
 }
