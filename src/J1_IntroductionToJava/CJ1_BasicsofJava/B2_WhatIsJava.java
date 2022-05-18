@@ -51,9 +51,9 @@ According to the SunMicroSystem java is available in 3 flavors
 
                                                  /*         features of Java      */
 /*
-1.  Simple    : Java is designed to be easy to learn. If you understand the basic concept of OOP Java, it would be easy to master.
-2.  Robust    : Java is capable of handling run-time errors, supports automatic garbage collection and exception handling, and avoids explicit pointer concept.
-3.  Portable  : Java code can execute on all major platforms because it facilitates you to carry the Java bytecode to any platform. It doesn't require any implementation.
+1.  Simple   : Java is designed to be easy to learn. If you understand the basic concept of OOP Java, it would be easy to master.
+2.  Robust   : Java is capable of handling run-time errors, supports automatic garbage collection and exception handling, and avoids explicit pointer concept.
+3.  Portable : Java code can execute on all major platforms because it facilitates you to carry the Java bytecode to any platform. It doesn't require any implementation.
 4.  Platform-independent : Java code can be executed on multiple platforms, for example, Windows, Linux, Sun Solaris, Mac/OS, etc. Java code is compiled by the compiler and converted into bytecode.
 This bytecode is a platform-independent code because it can be run on multiple platforms, i.e., Write Once and Run Anywhere (WORA).
 5.  Secured   : Java is best known for its security. With Java, we can develop virus-free systems.
