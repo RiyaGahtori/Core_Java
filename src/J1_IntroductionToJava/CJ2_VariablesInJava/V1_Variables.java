@@ -20,6 +20,9 @@ Example : int data = 21; // 21 is the value stored by variable_name "data" in "i
 float simpleInterest;  // Declaring float variable
 int time = 10, speed = 20; // Declaring and Initializing integer variable
 char var = 'h'; // Declaring and Initializing character variable
+int a, b, c;         // Declares three ints, a, b, and c.
+byte B = 22;         // initializes a byte type variable B.
+double pi = 3.14159; // declares and assigns a value of PI.
  */
 
 /*__________________________________________________________________________________________________________________________________________________________________________________*/
@@ -53,12 +56,7 @@ public class V1_Variables {
     }
 }
 
-/*__________________________________________________________________________________________________________________________________________________________________________________*/
 
-                                                         /* Types of Variables in Java */
-/*
-
- */
 
 
 
