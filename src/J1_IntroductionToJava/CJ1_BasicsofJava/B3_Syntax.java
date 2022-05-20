@@ -1,4 +1,3 @@
-//Example code with explanation of each line -
 package J1_IntroductionToJava.CJ1_BasicsofJava;
 
 public class B3_Syntax {  // Save as "B3_Syntax.java"
