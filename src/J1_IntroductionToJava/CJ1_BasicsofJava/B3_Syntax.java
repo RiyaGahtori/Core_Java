@@ -1,9 +1,18 @@
+//Syntax : The set of rules to be followed while writing a Java program is called Syntax.
+/*
+--> The curly braces {} marks the beginning and the end of a block of code.
+--> Each code statement must end with a semicolon (;).
+--> System.out.println :
+    System is a built-in Java class that contains useful members, such as out, which is short for "output".
+    The println() method, short for "print line", is used to print a value to the screen (or a file).
+--> public static void main : public is used as an access modifier for a main method . static is used so that it can directly load in memory with creating any instance.
+    void is used because it does not return any value and main is the entry point of program.
+*/
+
 package J1_IntroductionToJava.CJ1_BasicsofJava;
 
 public class B3_Syntax {  // Save as "B3_Syntax.java"
 
-    /*public is used as an access modifier for a main method . static is used so that it can directly load in memory with creating any instance.
-void is used because it does not return any value and main is the entry point of program.*/
     public static void main(String[] args) { // Program entry point
         System.out.println("Hello, world!");   // Print text message
 
@@ -27,5 +36,6 @@ As soon as the main() method terminates, the java program terminates too. Hence,
 5. String[] args : It stores Java command-line arguments and is an array of type java.lang.String class.
 Here, the name of the String array is args, but it is not fixed and the user can use any name in place of it.
  */
+
 
 
