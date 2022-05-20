@@ -52,10 +52,10 @@ whose job is to check that the instructions don’t perform damaging actions.
                                          package J1_IntroductionToJava.CJ1_BasicsofJava;
 
                                          //Main class
-                                         public class B1_JdkJreJvm
+                                         public class B1_JdkJreJvm // Save as "B1_JdkJreJvm.java"
                                          {
                                              // Main driver method
-                                             public static void main(String[] args)
+                                             public static void main(String[] args)  // Program entry point
                                              {
                                                  // Print command
                                                  System.out.println("Hello everybody! ");
