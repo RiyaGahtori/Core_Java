@@ -4,7 +4,7 @@ Types of Variables :
 1. Local Variables -   A variable defined within a block or method or constructor is called a local variable.
 =>These variables are created when the block is entered, or the function is called and destroyed after exiting from the block or when the call returns from the function.
 =>The scope of these variables exists only within the block in which the variable is declared. i.e., we can access these variables only within that block.
-=>Initialization of the local variable is mandatory before using it in the defined scope.
+=>Initialization of the local variable is mandatory before using it in the defined scope.(If it is not initialize garbage value is stored)
 
 2. Instance Variables - Instance variables are non-static variables and are declared in a class outside any method, constructor, or block.
 =>As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed .
