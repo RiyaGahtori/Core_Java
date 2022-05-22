@@ -51,22 +51,22 @@ The compiler will replace the object name with the class name automatically.
 
 /*__________________________________________________________________________________________________________________________________________________________________________________________
 
-Sr.No.	Local variables	                                            Instance variables	                                         Static variables
+Sr. Local variables	                                           Instance variables	                                     Static variables
+No.
+1.  Variables declared within a method are local variables.    An instance variable is declared inside a class           Static variables are declared inside a class but outside a method
+                                                               but outside any method or block.                          starting with a keyword static.
 
-1.	    Variables declared within a method are local variables.     An instance variable is declared inside a class              Static variables are declared inside a class but outside a method
-                                                                    but outside any method or block.                             starting with a keyword static.
+2.	The scope of the local variable is limited to the method,  An instance variable is accessible throughout the class.  The static variable is accessible throughout the class.
+	it is declared inside.
 
-2.	    The scope of the local variable is limited to the method,   An instance variable is accessible throughout the class.     The static variable is accessible throughout the class.
-	    it is declared inside.
+3.	A local variable starts its lifetime when the method is    The object associated with the instance variable decides  The static variable has the same lifetime as the program.
+    invoked.		                                           its lifetime.
 
-3.	    A local variable starts its lifetime when the method is     The object associated with the instance variable decides     The static variable has the same lifetime as the program.
-        invoked.		                                            its lifetime.
+4.  Local variable is accessible to all the objects of         Instance variable has different copies for different      Static variables only have one single copy of the entire class.
+    the class.		                                           objects.
 
-4.  	Local variable is accessible to all the objects of          Instance variable has different copies for different         Static variables only have one single copy of the entire class.
-        the class.		                                            objects.
-
-5.	    Used to store values that are required for a 	            Used to store values that are needed to be accessed by       Used for storing constants.
-        particular method.                                          different methods of the class.
+5.	Used to store values that are required for a 	           Used to store values that are needed to be accessed by    Used for storing constants.
+    particular method.                                         different methods of the class.
 
 __________________________________________________________________________________________________________________________________________________________________________________________*/
 
