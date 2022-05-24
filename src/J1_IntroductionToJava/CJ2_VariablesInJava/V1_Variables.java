@@ -57,6 +57,13 @@ public class V1_Variables {
 }
 
 
+/*
+=> Declaration and Initialization
+Declaration    : Declaration tells the compiler about the existence of an entity in the program and its location. When you declare a variable, you should also initialize it.
+Initialization : Initialization is the process of assigning a value to the Variable. Every programming language has its own method of initializing the variable.
+ */
+
+
 
 
 
