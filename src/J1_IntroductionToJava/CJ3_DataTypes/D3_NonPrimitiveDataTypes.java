@@ -17,10 +17,11 @@ consider an array that stores a group of values. Class is also a primitive type 
 
 2. Object : An object is the variable of the class, which can access the elements of class i.e. methods and variables.
 
-3. String : A string represents a sequence of characters for example "riri", "Hello world", etc. String is the class of Java. (Syntax : String str = "You're the best"; )
+3. String : A string represents a sequence of characters for example "riri", "Hello world", etc. String is the class of Java.
+String str = "You're the best";
 
 4. Array : An array is a data type which can store multiple homogenous variables. They are stored in an indexed manner starting with index 0.
-
+int Array_Name = new int[7];
 The variables can be either primitive or non-primitive data types.
 -> Following example shows how to declare array of primitive data type int:
 int [ ] marks;
