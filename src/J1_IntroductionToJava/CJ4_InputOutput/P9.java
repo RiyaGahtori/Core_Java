@@ -4,7 +4,7 @@ Formula :
 T(°C)   =  ((T(oF)  -  32  ) ×  5)/9
  */
 
-package J1_IntroductionToJava.InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput;
 import java.util.Scanner;
 
 public class P9 {

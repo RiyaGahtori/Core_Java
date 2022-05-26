@@ -4,7 +4,7 @@ Formula:
 Area of triangle = 1/2(base*height)
  */
 
-package J1_IntroductionToJava.InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput;
 import java.util.Scanner;
 
 public class P14 {

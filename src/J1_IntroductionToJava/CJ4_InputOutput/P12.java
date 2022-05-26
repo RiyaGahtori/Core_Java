@@ -4,7 +4,7 @@ Formula :
 root = number^(1/2)
  */
 
-package J1_IntroductionToJava.InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput;
 import java.util.Scanner;
 
 public class P12 {

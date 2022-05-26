@@ -1,6 +1,6 @@
 //16.	Write a program to enter marks of five subjects and calculate total, average and percentage.
 
-package J1_IntroductionToJava.InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput;
 import java.util.Scanner;
 
 public class P16 {

@@ -9,7 +9,7 @@ Here,
 -> "System" is a class.
 -> "out" is a public static field: it accepts output data.
  */
-package J1_IntroductionToJava.InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput;
 
 public class Output {
     public static void main (String[] args){

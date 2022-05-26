@@ -4,7 +4,7 @@ Formula:
 result = base value ^ exponent value
  */
 
-package J1_IntroductionToJava.InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput;
 import java.util.Scanner;
 
 public class P11 {

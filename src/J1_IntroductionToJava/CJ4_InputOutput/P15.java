@@ -5,7 +5,7 @@ Area of Equilateral Triangle = (1.73 * a* a)/4
 Where: a = side
  */
 
-package J1_IntroductionToJava.InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput;
 import java.util.Scanner;
 
 public class P15 {

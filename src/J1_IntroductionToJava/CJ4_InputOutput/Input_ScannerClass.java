@@ -8,7 +8,7 @@ Then, we need to create an object of the Scanner class. We can use the object to
 --> Take input from the user
     int number = input.nextInt();
  */
-package J1_IntroductionToJava.InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput;
 import java.util.Scanner;
 
 public class Input_ScannerClass {
