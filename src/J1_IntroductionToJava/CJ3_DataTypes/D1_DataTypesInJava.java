@@ -27,7 +27,7 @@ package J1_IntroductionToJava.CJ3_DataTypes;
 public class D1_DataTypesInJava {
     public static void main(String[] args)
     {
-        int num; //Declaring int variable
+        int num; //Declaring int
         num = 21; //initializes a variable num
         System.out.println("The value of num is : "+num); //print the value of num
     }

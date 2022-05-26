@@ -21,9 +21,7 @@ UTF-8: It represents 8-bits (1 byte) long character encoding.
 UTF-16: It represents 16-bits (2 bytes) long character encoding
 UTF-32: It represents 32-bits (4 bytes) long character encoding.
 
--> To access a Unicode character the format starts with an escape sequence \u followed by 4 digits hexadecimal value.
 -> A Unicode character has a range of possible values starting from \u0000 to \uFFFF.
-
 -> Some of the Unicode characters are
 \u00A9 represent the copyright symbol - ©
 \u0394 represent the capital Greek letter delta - Δ
@@ -39,7 +37,6 @@ In unicode, character holds 2 byte, so java also uses 2 byte for characters.
 ~> lowest value:\u0000
 ~> highest value:\uFFFF
  */
-
 
                                                                        //Program to convert UTF-8 to Unicode
                                                                        package J1_IntroductionToJava.CJ1_BasicsofJava;
