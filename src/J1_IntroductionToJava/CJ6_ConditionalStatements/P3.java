@@ -31,7 +31,7 @@ public class P3
         //executes when the above two conditions return false
         else
         {
-            System.out.println(num + " is neither a positive number nor a negative number ");
+            System.out.println(num+ " is neither a positive number nor a negative number ");
         }
     }
 }
