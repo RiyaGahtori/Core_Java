@@ -35,7 +35,6 @@ public class P12 {
 
         int total = p + c + ca;
         float percentage = (float) (total/3.0);
-
         String div;
         if (percentage >= 60)
         {
