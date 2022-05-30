@@ -14,5 +14,22 @@ public class P9 {
         int x = xy.nextInt();
         System.out.print("Enter the Second coordinate point : ");
         int y = xy.nextInt();
+
+        if(x>0 && y>0)
+        {
+            System.out.printf("(%d,%d) lies in the first quadrant", x, y);
+        }
+        else if(x<0 && y>0) {
+            System.out.printf("(%d,%d) lies in the second quadrant", x, y);
+        }
+        else if(x<0 && y<0) {
+            System.out.printf("(%d,%d) lies in the third quadrant", x, y);
+        }
+        else if(x>0 && y<0) {
+            System.out.printf("(%d,%d) lies in the fourth quadrant", x, y);
+        }
+        else {
+                System.out.printf("(%d,%d) lies at the origin", x, y);
+        }
     }
 }
