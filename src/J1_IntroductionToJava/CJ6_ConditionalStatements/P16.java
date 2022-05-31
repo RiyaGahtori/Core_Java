@@ -19,16 +19,16 @@ public class P16 {
 
         if((ch >='a'&&ch <='z')||(ch >='A'&&ch <='Z'))
         {
-            System.out.println(ch + " is A ALPHABET.");
+            System.out.println(ch + " is a ALPHABET.");
         }
         else if(ch >='0'&&ch <='9')
         {
-            System.out.println(ch + " is A DIGIT.");
+            System.out.println(ch + " is a DIGIT.");
 
         }
         else
         {
-            System.out.println(ch + " is A SPECIAL CHARACTER.");
+            System.out.println(ch + " is a SPECIAL CHARACTER.");
         }
 }
 }
