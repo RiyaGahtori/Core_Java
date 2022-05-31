@@ -10,7 +10,6 @@ import java.util.Scanner;
 public class P22 {
     public static void main(String[] args)
     {
-        String digitWords = "";
         Scanner sc = new Scanner(System.in);
         System.out.print("Input Digit : ");
         int num = sc.nextInt();
