@@ -19,12 +19,12 @@ public class P26 {
         int num1 = sc.nextInt();
         System.out.print("Enter the Second Integer : ");
         int num2 = sc.nextInt();
-        System.out.println("__________________________________");
+        System.out.println("_________________________________");
         System.out.println(" Press 1 for Addition ");
         System.out.println(" Press 2 for Subtraction ");
         System.out.println(" Press 3 for Multiplication ");
         System.out.println(" Press 4 for Division ");
-        System.out.println("__________________________________");
+        System.out.println("_________________________________");
         System.out.print("Your Choice : ");
         int choice = sc.nextInt();
 
