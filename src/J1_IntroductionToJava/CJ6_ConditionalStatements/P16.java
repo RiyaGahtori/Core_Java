@@ -15,8 +15,6 @@ public class P16 {
         System.out.print("Enter any character : ");
         char ch = scanner.next().charAt(0);
 
-        System.out.println(" ");
-
         if((ch >='a'&&ch <='z')||(ch >='A'&&ch <='Z'))
         {
             System.out.println(ch + " is a ALPHABET.");
