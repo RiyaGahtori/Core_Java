@@ -16,21 +16,25 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 =>Java Keywords or Reserved Words for jdk1.4
 
-abstract	         do	         if	         package	         synchronized
-boolean	             double	     implements	 private	         this
-break	             else	     import	     protected	         throw
-byte		         extends	 instanceof	 public	             throws
-case		         false	     int	     return	             transient
-catch		         final		 interface   short	           	 true
-char		         finally	 long	     static	         	 try
-class		         float	     native		 strictfp***		 void
-const*		         for		 new		 super		         volatile
-continue		     goto*	     null		 switch	         	 while
-default	         	 assert**    enum****
+abstract	         default	 goto*	     package             this
+assert**             do	         if	         private	         throw
+boolean	             double	     implements	 protected	         throws
+break	             else        import	     public		         transient
+byte	             enum****    instanceof	 return              true
+case		         extends	 int	     short	             try
+catch		         false	     interface   static	             void
+char		         final		 long	     strictfp***	     volatile
+class		         finally	 native		 super			     while
+const*		         float	     new		 switch
+continue		     for		 null		 synchronized
+
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. abstract     : Using the abstract keyword in java we can create abstract classes and methods. Abstract keywords are essential to implement abstraction into a program.
+1. abstract     : Java abstract keyword is used to declare an abstract class. An abstract class can provide the implementation of the interface. It can have abstract and non-abstract methods.
+                  Using the abstract keyword in java we can create abstract classes and methods. Abstract keywords are essential to implement abstraction into a program.
                   For example: abstract class DataFlair
+
 
 2. assert       : Using the assert keyword we can implement assertion in a program. Using it we can check the correctness of any assumptions made in a program. The assert keyword was added in JDK 1.4.
                   For Example: int i = 10;
@@ -276,7 +280,10 @@ default	         	 assert**    enum****
                                }
 Note: There are two other keywords that are reserved but not used, they are const and goto. Words like true, false and null might seem like keywords, but they are actually literals.
 
- */
+
+
+
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 
