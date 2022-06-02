@@ -30,18 +30,28 @@ continue		     for		 null		 synchronized
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
 
-1. abstract     : Java abstract keyword is used to declare an abstract class. An abstract class can provide the implementation of the interface. It can have abstract and non-abstract methods.
-                  Using the abstract keyword in java we can create abstract classes and methods. Abstract keywords are essential to implement abstraction into a program.
-                  For example: abstract class DataFlair
+                                                                         package J1_IntroductionToJava.CJ5_TokenInJava;
+
+                                                                         public class T2_Keywords {
+                                                                         }
 
 
-2. assert       : Using the assert keyword we can implement assertion in a program. Using it we can check the correctness of any assumptions made in a program. The assert keyword was added in JDK 1.4.
-                  For Example: int i = 10;
+/*
+1. abstract     : A non-access modifier. Used for classes and methods: An abstract class cannot be used to create objects (to access it, it must be inherited from another class).
+                  An abstract method can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from)
+               => Java abstract keyword is used to declare an abstract class. An abstract class can provide the implementation of the interface. It can have abstract and non-abstract methods.
+               => For example: abstract class DataFlair
+
+
+2. assert       : For debugging
+               => Using the assert keyword we can implement assertion in a program. Using it we can check the correctness of any assumptions made in a program. The assert keyword was added in JDK 1.4.
+               => For Example: int i = 10;
                                assert i > 5 : "The value is greater than 5";
 
-3. boolean      : Using the boolean keyword we can declare a boolean variable. A boolean variable is a variable that has two values, true and false.
-                  For example: boolean flag = true;
+3. boolean      : Using the boolean keyword we can declare a boolean variable. A boolean variable is a variable that has two values, true and false.(A data type that can only store true and false values)
+               => For example: boolean flag = true;
 
 4. break        : The break keyword is a jump statement using which we can break out of a loop or switch statement. The break statement terminates the currently executing block of code.
                   For example: i=0;
@@ -279,17 +289,9 @@ continue		     for		 null		 synchronized
                                    i++;
                                }
 Note: There are two other keywords that are reserved but not used, they are const and goto. Words like true, false and null might seem like keywords, but they are actually literals.
-
-
-
-
- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+*/
 
 
 
 
 
-package J1_IntroductionToJava.CJ5_TokenInJava;
-
-public class T2_Keywords {
-}
