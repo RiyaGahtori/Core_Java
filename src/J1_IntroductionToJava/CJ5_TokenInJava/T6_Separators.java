@@ -1,4 +1,4 @@
-                                                                      /*          Seprator In Java          */
+                                                                      /*          Separator In Java          */
 /*
 => separator  <= ; | , | . | ( | ) | { | } | [ | ]
 Note : the first three separators (; , and .) are tokens that separate other tokens, and the last six (3 pairs of braces) separators are also known as delimiters.
