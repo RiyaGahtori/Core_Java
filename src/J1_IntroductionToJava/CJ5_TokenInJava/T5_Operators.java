@@ -1,5 +1,6 @@
                                                                  /*            Operators In Java            */
 //Operators: In programming, operators are the special symbol that tells the compiler to perform a special operation.
+
                                                                  package J1_IntroductionToJava.CJ5_TokenInJava;
 
                                                                  public class T5_Operators {
@@ -7,7 +8,7 @@
                                                                          int x = 10;
                                                                          x += 5;
                                                                          System.out.println(x);
-                                                                         
+
                                                                          float g = 500, h = 50, i = 10, j = 90, k = 80, l = 60;
                                                                          String u = "You are", v =  " Welcome";
 
@@ -26,13 +27,6 @@
                                                                          System.out.println("g % h = " + (g % h));
                                                                      }
                                                                  }
-
-
-
-
-
-
-
 
 /*
 => There are eight types of operators in Java :
