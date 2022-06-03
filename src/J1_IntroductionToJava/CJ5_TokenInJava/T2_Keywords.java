@@ -5,7 +5,7 @@
 => It is always written in lower case.
 
 => Java keywords are also known as reserved words because These are the pre-defined reserved words of any programming language.
- These are predefined words by Java so they cannot be used as a variable, object name, class name, or any other identifiers ( as they are part of the Java programming language syntax).
+ These are predefined words by Java, so they cannot be used as a variable, object name, class name, or any other identifiers ( as they are part of the Java programming language syntax).
 
 => In Java, we have 50 such reserved words, out of which 48 are in use and 2 are reserved but not in use (for future use [goto*, const*]).
 -> Future use: goto*,const*
@@ -28,15 +28,21 @@ class		         finally	 native		 super			     while
 const*		         float	     new		 switch
 continue		     for		 null		 synchronized
 
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--> Keywords for data types are               : boolean, byte, char, int, long, short, float, double.
+--> Keywords for access control are           : private, protected, public.
+--> Keywords for modifiers are                : abstract, final, native, private, protected, public, static, transient, synchronized, volatile, strictfp.
+--> Keywords for catch-exception are          : try, catch, finally, throw.
+--> Keywords for loops or decision-makers are : break, case, continue, default, do, while, for, switch, if, else.
+--> Keywords for class functions are          : class, extends, implements, import, instanceof, new, package, return, interface, this, throws, void, super.
+--> Keywords for assigned values are          : true, false, null.
+--> Outdated keywords are                     : const, goto.
 */
 
                                                                          package J1_IntroductionToJava.CJ5_TokenInJava;
 
                                                                          public class T2_Keywords {
                                                                          }
-
 
 /*
 1. abstract     : A non-access modifier. Used for classes and methods: An abstract class cannot be used to create objects (to access it, it must be inherited from another class).
@@ -310,8 +316,6 @@ continue		     for		 null		 synchronized
                                {
                                    i++;
                                }
-
-Note: There are two other keywords that are reserved but not used, they are const and goto. Words like true, false and null might seem like keywords, but they are actually literals.
 */
 
 
