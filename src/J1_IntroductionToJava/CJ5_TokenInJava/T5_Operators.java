@@ -7,7 +7,7 @@
                                                                          int x = 10;
                                                                          x += 5;
                                                                          System.out.println(x);
-
+                                                                         
                                                                          float g = 500, h = 50, i = 10, j = 90, k = 80, l = 60;
                                                                          String u = "You are", v =  " Welcome";
 
@@ -24,7 +24,6 @@
 
 
                                                                          System.out.println("g % h = " + (g % h));
-
                                                                      }
                                                                  }
 
