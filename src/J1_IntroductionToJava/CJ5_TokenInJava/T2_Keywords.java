@@ -188,53 +188,60 @@ continue		     for		 null		 synchronized
                                }
 
 25. int         : Using the int keyword we can declare a variable of integer datatype. It can hold a value of 32-bit long.
-                  For Example: int num=100;
+               => For Example: int num=100;
 
-26. interface   : Using the interface keyword in java we can declare an interface inside the code.
-                  For Example: interface DataFlair{}
+26. interface   : Used to declare a special type of class that only contains abstract methods
+               => Using the interface keyword in java we can declare an interface inside the code.
+               => For Example: interface DataFlair{}
 
 27. long        : Using the long keyword we can declare variables with long data type. The long data type is integers that can hold 64-bit of data.
-                  For Example: long num=100000;
+               => For Example: long num=100000;
+
+--> module	    : Declares a module. New in Java 9
 
 28. native      : The native keyword in java is used to indicate that a method is implemented in native code using JNI[Java Native Interface].
-                  For Example: Public native void DataFlair();
+               => For Example: Public native void DataFlair();
 
 29. new         : Using the new keyword we can create a new instance for a class.
-                  For Example: public class DataFlair {
+               => For Example: public class DataFlair {
                                  public static void main(String[] args) {
                                    DataFlair Obj1 = new DataFlair();
                                }
 
 30. Package     : Using the package keyword in java we can create a new package in the java library.
-                  For Example: package com.DataFlair.Keywords;
+               => For Example: package com.DataFlair.Keywords;
 
 31. private     : private keyword is an access modifier that declares a class or method as private; i.e; it can only be accessed by its local variables.
-                  For Example: private class DataFlair{}
+               => For Example: private class DataFlair{}
 
 32. protected   : protected is also an access modifier that declares a class or method as protected; i.e; it can be accessed by files in the PWD(Present Working Directory).
-                  For Example: protected class DataFlair{}
+               => For Example: protected class DataFlair{}
 
 33. public      : public is another access modifier that declares a class or method as public; i,e; it can be accessed globally.
-                  For Example: public class DataFlair{}
+               => For Example: public class DataFlair{}
 
-34. return      : The return keyword is used inside a method when it requires to return a value of a certain return type except void.
-                  For Example: int sum(int a, int b)
+--> requires	: Specifies required libraries inside a module. New in Java 9
+
+34. return      : Finished the execution of a method, and The return keyword is used inside a method when it requires to return a value of a certain return type except void.
+               => For Example: int sum(int a, int b)
                                {
                                     return (a+b);
                                }
 
 35. short       : In java, the short keyword declares variables that can hold an integer value of 16-bit long.
-                  For Example: short num=1;
+               => For Example: short num=1;
 
-36. static      : In java, the static keyword declares a static variable or method. A static variable or method is stored in a static memory location.
-                  For Example: public static void main()
+36. static      : A non-access modifier used for methods and attributes. Static methods/attributes can be accessed without creating an object of a class
+               => In java, the static keyword declares a static variable or method. A static variable or method is stored in a static memory location.
+               => For Example: public static void main()
 
-37. strictfp    : In java, strictfp keyword ensures that every platform gets the same result for floating-point operation. The strictfp keyword is used on classes, methods and interfaces. This keyword was introduced in JDK 1.2.
-                  For Example: strictfp class DataFlair{}
+37. strictfp    : In java, strictfp keyword ensures that every platform gets the same result for floating-point operation. The strictfp keyword Restrict the precision and rounding of floating point calculations.
+               => This keyword was introduced in JDK 1.2.
+               => For Example: strictfp class DataFlair{}
 
-
-38. super       : The super keyword distinguishes variables with the same name in both parent class and child class in inheritance.
-                  For Example: class DataFlair
+38. super       : Refers to superclass (parent) objects
+               => The super keyword distinguishes variables with the same name in both parent class and child class in inheritance.
+               => For Example: class DataFlair
                                {
                                     String name=”Company”;
                                }
@@ -246,7 +253,7 @@ continue		     for		 null		 synchronized
                                }
 
 39. switch      : Using the switch keyword we can initiate the switch case block in a java code.
-                  For Example: Switch(num)
+               => For Example: Switch(num)
                                {
                                     case 1:
                                               System.out.println(“ONE”);
@@ -255,11 +262,11 @@ continue		     for		 null		 synchronized
                                               System.out.println(“Not ONE”);
                                }
 
-40. synchronized: Using the synchronized keyword in java we can specify the critical section to be executed during multithread coding.
-                  For Example: synchronized void print(int num)
+40. synchronized: A non-access modifier, which specifies that methods can only be accessed by one thread at a time
+               => For Example: synchronized void print(int num)
 
 41. this        : this keyword in java is used to distinguish local variables from global variables.
-                  For example: class DataFlair{
+               => For example: class DataFlair{
                                String name;
                                DataFlair(String name)
                                {
@@ -267,73 +274,45 @@ continue		     for		 null		 synchronized
                                }
                                }
 
-42. throw       : The throw keyword in java is used to throw custom made exceptions explicitly into the code.
-                  For Example: throw new IOException("The Input is Not Acceptable”);
+42. throw       : The throw keyword creates a custom error.
+               => For Example: throw new IOException("The Input is Not Acceptable”);
 
-43. throws      : The throws keyword is used to propagate a checked exception.
-                  For Example: import java.io.*;
+43. throws      : Indicates what exceptions may be thrown by a method.
+               => For Example: import java.io.*;
                                class DataFlair{
                                 void internship()throws IOException{
                                  throw new IOException("Internship Not Found");
                                 }
                                }
 
-44. transient   : Using the transient keyword in java we can deserialize a variable. When a variable is declared transient, it is not considered for serialization.
-                  For Example: transient int num;
+44. transient   : A non-accesses modifier, which specifies that an attribute is not part of an object's persistent state
+               => Using the transient keyword in java we can deserialize a variable. When a variable is declared transient, it is not considered for serialization.
+               => For Example: transient int num;
 
-45. try         : The try block is used in exception handling to test a block of code for exceptions. The try block is always followed by a catch block or finally block.
-                  For Example: try{
+45. try         : Creates a try...catch statement
+               => The try block is used in exception handling to test a block of code for exceptions. The try block is always followed by a catch block or finally block.
+               => For Example: try{
                                //statement
                                }catch(exception e){}
 
-46. void        : Using the void keyword we can declare that the method will not return any value.
-                  For Example: void main()
+--> var         : Declares a variable. New in Java 10.
 
-47. volatile    : volatile keyword in java is used to indicate that a variable can change asynchronously.
-                  For Example: static volatile int num=100;
+46. void        : Using the void keyword we can declare that the method will not return any value.
+               => For Example: void main()
+
+47. volatile    : Indicates that an attribute is not cached thread-locally, and is always read from the "main memory".
+               => volatile keyword in java is used to indicate that a variable can change asynchronously.
+               => For Example: static volatile int num=100;
 
 48. while       : Using the While keyword we can declare a while loop. While loop is an entry controlled loop, where the number of iterations is not fixed.
-                  For example: i=5;
+               => For example: i=5;
                                while(i<=10)
                                {
                                    i++;
                                }
+
 Note: There are two other keywords that are reserved but not used, they are const and goto. Words like true, false and null might seem like keywords, but they are actually literals.
-
-Note: true, false, and null are not keywords, but they are literals and reserved words that cannot be used as identifiers.
 */
-
-/*
-
-instanceof
-int	A data type that can store whole numbers from -2147483648 to 2147483647
-interface	Used to declare a special type of class that only contains abstract methods
-long	A data type that can store whole numbers from -9223372036854775808 to 9223372036854775808
-module	Declares a module. New in Java 9
-native	Specifies that a method is not implemented in the same Java source file (but in another language)
-new	Creates new objects
-package	Declares a package
-private	An access modifier used for attributes, methods and constructors, making them only accessible within the declared class
-protected	An access modifier used for attributes, methods and constructors, making them accessible in the same package and subclasses
-public	An access modifier used for classes, attributes, methods and constructors, making them accessible by any other class
-requires	Specifies required libraries inside a module. New in Java 9
-return	Finished the execution of a method, and can be used to return a value from a method
-short	A data type that can store whole numbers from -32768 to 32767
-static	A non-access modifier used for methods and attributes. Static methods/attributes can be accessed without creating an object of a class
-strictfp	Restrict the precision and rounding of floating point calculations
-super	Refers to superclass (parent) objects
-switch	Selects one of many code blocks to be executed
-synchronized	A non-access modifier, which specifies that methods can only be accessed by one thread at a time
-this	Refers to the current object in a method or constructor
-throw	Creates a custom error
-throws	Indicates what exceptions may be thrown by a method
-transient	A non-accesss modifier, which specifies that an attribute is not part of an object's persistent state
-try	Creates a try...catch statement
-var	Declares a variable. New in Java 10
-void	Specifies that a method should not have a return value
-volatile	Indicates that an attribute is not cached thread-locally, and is always read from the "main memory"
-while	Creates a while loop
- */
 
 
 
