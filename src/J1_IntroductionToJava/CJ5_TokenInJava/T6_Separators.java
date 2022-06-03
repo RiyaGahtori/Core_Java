@@ -15,4 +15,14 @@ For example : Math.pow(9, 3); contains nine tokens.
 package J1_IntroductionToJava.CJ5_TokenInJava;
 
 public class  T6_Separators {
+    public static void main(String[] args)
+    {
+        int i, j = 10, k = 11;    // uses comma or , separator
+
+        for (i = 0; i < j; i++)   // uses parentheses or () separator
+        {                     // uses braces or {} separator
+            System.out.println("I am " + i);
+        }
+        System.out.println(k + " is biggest here.");
+    }
 }
