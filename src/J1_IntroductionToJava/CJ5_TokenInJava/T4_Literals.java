@@ -26,11 +26,11 @@ ________________________________________________________________________________
                                                                       public class T4_Literals {
                                                                           public static void main(String[] args)
                                                                           {
-                                                                              int d = 100; // Here 100 is a constant/literal.
-                                                                              double w = 123.456;
-                                                                              char i = 'a';
-                                                                              String r = "Hello";
-                                                                              boolean a = true;
+                                                                              int d = 100;        // Here 100 is an Integer constant/literal.
+                                                                              double w = 123.456; // Here 123.456 is a Floating Point constant/literal.
+                                                                              char i = 'a';       // Here 'a' is a Character constant/literal.
+                                                                              String r = "Hello"; // Here "Hello" is a String constant/literal.
+                                                                              boolean a = true;   // Here true is a Boolean constant/literal.
 
                                                                               System.out.println(d);
                                                                               System.out.println(w);
