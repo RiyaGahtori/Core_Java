@@ -1,7 +1,41 @@
                                                                  /*            Operators In Java            */
-/*
-Operators: In programming, operators are the special symbol that tells the compiler to perform a special operation.
+//Operators: In programming, operators are the special symbol that tells the compiler to perform a special operation.
+                                                                 package J1_IntroductionToJava.CJ5_TokenInJava;
 
+                                                                 public class T5_Operators {
+                                                                     public static void main(String[] args) {
+                                                                         int x = 10;
+                                                                         x += 5;
+                                                                         System.out.println(x);
+
+                                                                         float g = 500, h = 50, i = 10, j = 90, k = 80, l = 60;
+                                                                         String u = "You are", v =  " Welcome";
+
+
+                                                                         System.out.println("g + h = " + (g + h));
+                                                                         System.out.println("g - h = " + (g - h));
+
+
+                                                                         System.out.println("u + v = " + u + v);
+
+
+                                                                         System.out.println("g * h = " + (g * h));
+                                                                         System.out.println("g / h = " + (g / h));
+
+
+                                                                         System.out.println("g % h = " + (g % h));
+
+                                                                     }
+                                                                 }
+
+
+
+
+
+
+
+
+/*
 => There are eight types of operators in Java :
 1. Arithmetic Operators : They are used to performing simple arithmetic operations on primitive data types.
     Symbols : 	+ , - , / , * , %
@@ -73,30 +107,3 @@ and therefore right-hand side value must be declared before using it or should b
 
 
 
-package J1_IntroductionToJava.CJ5_TokenInJava;
-
-public class T5_Operators {
-    public static void main(String[] args) {
-        int x = 10;
-        x += 5;
-        System.out.println(x);
-
-        float g = 500, h = 50, i = 10, j = 90, k = 80, l = 60;
-        String u = "You are", v =  " Welcome";
-
-
-        System.out.println("g + h = " + (g + h));
-        System.out.println("g - h = " + (g - h));
-
-
-        System.out.println("u + v = " + u + v);
-
-
-        System.out.println("g * h = " + (g * h));
-        System.out.println("g / h = " + (g / h));
-
-
-        System.out.println("g % h = " + (g % h));
-
-    }
-}
