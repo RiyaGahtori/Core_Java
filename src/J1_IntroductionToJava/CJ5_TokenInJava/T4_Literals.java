@@ -3,8 +3,8 @@
 
 /*
 => Literals: Any constant value which can be assigned to the variable is called literal/constant.
-=> In programming literal is a notation that represents a fixed value (constant) in the source code. It can be categorized as an integer literal, string literal, Boolean literal, etc.
-   It is defined by the programmer. Once it has been defined cannot be changed.
+ In programming literal is a notation that represents a fixed value (constant) in the source code. It can be categorized as an integer literal, string literal, Boolean literal, etc.
+ It is defined by the programmer. Once it has been defined cannot be changed.
    => Java provides five types of literals are as follows:
      1.   Integer
      2.   Floating Point
