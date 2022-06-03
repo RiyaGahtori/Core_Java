@@ -28,23 +28,24 @@ class		         finally	 native		 super			     while
 const*		         float	     new		 switch
 continue		     for		 null		 synchronized
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
---> Keywords for data types are               : boolean, byte, char, int, long, short, float, double.
---> Keywords for access control are           : private, protected, public.
---> Keywords for modifiers are                : abstract, final, native, private, protected, public, static, transient, synchronized, volatile, strictfp.
---> Keywords for catch-exception are          : try, catch, finally, throw.
---> Keywords for loops or decision-makers are : break, case, continue, default, do, while, for, switch, if, else.
---> Keywords for class functions are          : class, extends, implements, import, instanceof, new, package, return, interface, this, throws, void, super.
---> Keywords for assigned values are          : true, false, null.
---> Outdated keywords are                     : const, goto.
-*/
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
                                                                          package J1_IntroductionToJava.CJ5_TokenInJava;
 
                                                                          public class T2_Keywords {
+                                                                             public static void main(String[] args){
+                                                                                 System.out.println("--> Keywords for data types are               : boolean, byte, char, int, long, short, float, double.");
+                                                                                 System.out.println("--> Keywords for access control are           : private, protected, public.");
+                                                                                 System.out.println("--> Keywords for modifiers are                : abstract, final, native, private, protected, public, static, transient, synchronized, volatile, strictfp.");
+                                                                                 System.out.println("--> Keywords for catch-exception are          : try, catch, finally, throw.");
+                                                                                 System.out.println("--> Keywords for loops or decision-makers are : break, case, continue, default, do, while, for, switch, if, else.");
+                                                                                 System.out.println("--> Keywords for class functions are          : class, extends, implements, import, instanceof, new, package, return, interface, this, throws, void, super.");
+                                                                                 System.out.println("--> Keywords for assigned values are          : true, false, null.");
+                                                                                 System.out.println("--> Outdated keywords are                     : const, goto.");
+                                                                             }
                                                                          }
 
-/*
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. abstract     : A non-access modifier. Used for classes and methods: An abstract class cannot be used to create objects (to access it, it must be inherited from another class).
                   An abstract method can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from)
                => Java abstract keyword is used to declare an abstract class. An abstract class can provide the implementation of the interface. It can have abstract and non-abstract methods.
