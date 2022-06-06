@@ -4,7 +4,7 @@
  1km = 10000cm
  */
 
-package J1_IntroductionToJava.CJ4_InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput.PracticeQuestions;
 import java.util.Scanner;
 
 public class P7 {

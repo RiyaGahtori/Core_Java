@@ -1,6 +1,6 @@
 //7. Write a program to add an integer variable having value 5 and a double variable having value 6.2.
 
-package J1_IntroductionToJava.CJ3_DataTypes;
+package J1_IntroductionToJava.CJ3_DataTypes.PracticeQuestions;
 
 public class P7
 {

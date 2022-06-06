@@ -4,7 +4,7 @@ Test Data : -21
 Expected Output : The value of n = -1
  */
 
-package J1_IntroductionToJava.CJ6_ConditionalStatements;
+package J1_IntroductionToJava.CJ6_ControlStatements.C1_DecisionMakingStatements.IfElse_PracticeQuestions;
 import java.util.Scanner;
 
 public class P6 {

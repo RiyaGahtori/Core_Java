@@ -6,7 +6,7 @@ C = 2 * PI * r                                     C = circumference of the circ
 A = PI * r^2                                       A = area of the circle
 --> PI = 3.14
 */
-package J1_IntroductionToJava.CJ4_InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput.PracticeQuestions;
 import java.util.Scanner;
 
 public class P6 {
