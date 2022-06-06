@@ -1,6 +1,6 @@
 // 10.	Write a program to count number of digits in a number.
 
-package J1_IntroductionToJava.CJ7_LoopsInJava;
+package J1_IntroductionToJava.CJ6_ControlStatements.C2_LoopStatements.PracticeQuestions;
 import java.util.Scanner;
 
 public class P10

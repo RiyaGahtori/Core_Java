@@ -9,7 +9,7 @@ Expected Output :
 These numbers are different.
  */
 
-package J1_IntroductionToJava.CJ6_ConditionalStatements;
+package J1_IntroductionToJava.CJ6_ControlStatements.C1_DecisionMakingStatements.IfElse_PracticeQuestions;
 import java.util.Scanner;
 
 public class P11 {
