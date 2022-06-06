@@ -1,6 +1,6 @@
 //4. Print the ASCII value of the character 'h'.
 
-package J1_IntroductionToJava.CJ3_DataTypes;
+package J1_IntroductionToJava.CJ3_DataTypes.PracticeQuestions;
 
 public class P4
 {

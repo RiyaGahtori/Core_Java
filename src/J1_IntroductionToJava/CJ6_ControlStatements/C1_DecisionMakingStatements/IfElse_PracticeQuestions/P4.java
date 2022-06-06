@@ -4,7 +4,7 @@ Test Data : 2016
 Expected Output : 2016 is a leap year.
  */
 
-package J1_IntroductionToJava.CJ6_ConditionalStatements;
+package J1_IntroductionToJava.CJ6_ControlStatements.C1_DecisionMakingStatements.IfElse_PracticeQuestions;
 import java.util.Scanner;
 
 public class P4

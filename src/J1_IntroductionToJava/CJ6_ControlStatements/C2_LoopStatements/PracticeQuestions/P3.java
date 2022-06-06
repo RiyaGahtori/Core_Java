@@ -1,6 +1,6 @@
 // 3.	Write a program to print all alphabets from a to z.
 
-package J1_IntroductionToJava.CJ7_LoopsInJava;
+package J1_IntroductionToJava.CJ6_ControlStatements.C2_LoopStatements.PracticeQuestions;
 
 public class P3
 {
