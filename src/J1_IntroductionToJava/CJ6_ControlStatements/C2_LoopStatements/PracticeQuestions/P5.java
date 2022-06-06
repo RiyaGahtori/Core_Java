@@ -1,6 +1,6 @@
 // 5.	Write a program to print all odd number between 1 and 100.
 
-package J1_IntroductionToJava.CJ7_LoopsInJava;
+package J1_IntroductionToJava.CJ6_ControlStatements.C2_LoopStatements.PracticeQuestions;
 
 public class P5
 {

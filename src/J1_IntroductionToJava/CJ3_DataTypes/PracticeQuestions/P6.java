@@ -1,6 +1,6 @@
 //6. Write a program to add 3 to the ASCII value of the character 'd' and print the equivalent character.
 
-package J1_IntroductionToJava.CJ3_DataTypes;
+package J1_IntroductionToJava.CJ3_DataTypes.PracticeQuestions;
 
 public class P6
 {
