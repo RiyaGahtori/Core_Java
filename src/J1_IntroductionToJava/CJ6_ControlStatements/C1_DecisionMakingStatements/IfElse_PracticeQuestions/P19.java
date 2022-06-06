@@ -22,7 +22,7 @@ Surcharge Amount : 240.00
 Net Amount Paid By the Customer : 1840.00
  */
 
-package J1_IntroductionToJava.CJ6_ConditionalStatements;
+package J1_IntroductionToJava.CJ6_ControlStatements.C1_DecisionMakingStatements.IfElse_PracticeQuestions;
 import java.util.Scanner;
 
 public class P19 {
