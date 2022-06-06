@@ -1,7 +1,7 @@
 //1. Write a Java program to print an int, a double and a char on screen.
 
 
-package J1_IntroductionToJava.CJ3_DataTypes;
+package J1_IntroductionToJava.CJ3_DataTypes.PracticeQuestions;
 
 public class P1
 {
