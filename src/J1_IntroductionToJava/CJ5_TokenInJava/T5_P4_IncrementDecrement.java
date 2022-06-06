@@ -1,6 +1,6 @@
 package J1_IntroductionToJava.CJ5_TokenInJava;
 
-public class T5_P4_UnaryOperator {
+public class T5_P4_IncrementDecrement {
     public static void main(String[] args)
     {
         int a = 10;
