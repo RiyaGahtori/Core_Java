@@ -5,7 +5,7 @@ Simple Interest = (P × R × T)/100
 where  P = Principal Amount, R = Rate per Annum, T = Time (years)
  */
 
-package J1_IntroductionToJava.CJ4_InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput.PracticeQuestions;
 import java.util.Scanner;
 
 public class P17 {
