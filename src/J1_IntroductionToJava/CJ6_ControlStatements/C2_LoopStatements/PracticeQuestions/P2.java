@@ -1,6 +1,6 @@
 //2.	Write a program to print all natural numbers in reverse (from n to 1).
 
-package J1_IntroductionToJava.CJ7_LoopsInJava;
+package J1_IntroductionToJava.CJ6_ControlStatements.C2_LoopStatements.PracticeQuestions;
 import java.util.Scanner;
 
 public class P2 {

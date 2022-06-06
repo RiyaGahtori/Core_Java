@@ -1,5 +1,5 @@
 //2.	Write a program to enter two numbers and find their sum.
-package J1_IntroductionToJava.CJ4_InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput.PracticeQuestions;
 import java.util.Scanner;
 import static java.lang.Integer.sum;
 

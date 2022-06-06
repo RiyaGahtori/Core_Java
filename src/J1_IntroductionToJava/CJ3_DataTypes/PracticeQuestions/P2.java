@@ -1,6 +1,6 @@
 //2. Write a program to print the area of a rectangle of sides 2 and 3 units respectively.
 
-package J1_IntroductionToJava.CJ3_DataTypes;
+package J1_IntroductionToJava.CJ3_DataTypes.PracticeQuestions;
 
 public class P2
 {
