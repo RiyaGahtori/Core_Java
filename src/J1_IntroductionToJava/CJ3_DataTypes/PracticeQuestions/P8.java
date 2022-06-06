@@ -1,6 +1,6 @@
 //8. Write a program to find the square of the number 3.9.
 
-package J1_IntroductionToJava.CJ3_DataTypes;
+package J1_IntroductionToJava.CJ3_DataTypes.PracticeQuestions;
 
 public class P8
 {

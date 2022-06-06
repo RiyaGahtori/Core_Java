@@ -4,7 +4,7 @@ Test Data : 2 1
 Expected Output : The coordinate point (2,1) lies in the First quadrant.
  */
 
-package J1_IntroductionToJava.CJ6_ConditionalStatements;
+package J1_IntroductionToJava.CJ6_ControlStatements.C1_DecisionMakingStatements.IfElse_PracticeQuestions;
 import java.util.Scanner;
 
 public class P9 {

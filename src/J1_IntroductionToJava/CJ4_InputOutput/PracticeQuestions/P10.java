@@ -9,7 +9,7 @@ weeks = (days % 365) / 7
 days  = (days % 365) % 7
  */
 
-package J1_IntroductionToJava.CJ4_InputOutput;
+package J1_IntroductionToJava.CJ4_InputOutput.PracticeQuestions;
 import java.util.Scanner;
 
 public class P10 {
