@@ -15,6 +15,7 @@ Expected Output :
 The merged array in descending order is :
 3 3 2 2 1 1
  */
+
 package J1_IntroductionToJava.CJ7_Array.PracticeQuestions;
 import java.util.Scanner;
 
