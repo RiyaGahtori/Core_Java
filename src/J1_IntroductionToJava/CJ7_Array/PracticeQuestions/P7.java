@@ -21,26 +21,66 @@ import java.util.Scanner;
 public class P7 {
     public static void main(String[] args)
     {
+        int l, m, n;
+        int i, j, k;
         Scanner sc = new Scanner(System.in);
         System.out.print("Input the number of elements to be stored in the first array : ");
-        int l = sc.nextInt();
-        int arr[]=new int [l];
+         l = sc.nextInt();
+        int arr1[]=new int [l];
         System.out.println("Input "+l+" elements in the array : ");
-        for (int i=0;i<l;i++)
+        for (i=0;i<l;i++)
         {
             System.out.print("element - "+i+" : " );
-            arr[i]=sc.nextInt();
+            arr1[i]=sc.nextInt();
         }
 
         System.out.println(" ");
         System.out.print("Input the number of elements to be stored in the second array : ");
-        int m = sc.nextInt();
+         m = sc.nextInt();
+        int arr2[]=new int [l];
         System.out.println("Input "+m+" elements in the array : ");
-        for (int i=0;i<m;i++)
+        for (i=0;i<m;i++)
         {
             System.out.print("element - "+i+" : " );
-            arr[i]=sc.nextInt();
+            arr2[i]=sc.nextInt();
         }
 
+        //size of merged array is size of first array and  size of second array
+        n=m+l;
+
+        /*----------------- insert in the third array------------------------------------*/
+        int arr3[]=new int [n];
+        for( i=0;i<l; i++)
+        {
+            arr3[i] = arr1[i];
+        }
+        for(j=0;j<m; j++)
+        {
+            arr3[i] = arr2[j];
+            i++;
+        }
+
+        /*----------------- sort the array in decending order ---------------------------*/
+        for(i=0;i<n; i++)
+        {
+            for(k=0;k<n-1;k++)
+            {
+
+                if(arr3[k]<=arr3[k+1])
+                {
+                    j=arr3[k+1];
+                    arr3[k+1]=arr3[k];
+                    arr3[k]=j;
+                }
+            }
+        }
+
+        /*--------------- Prints the merged array ------------------------------------*/
+        System.out.println("The merged array in descending order is : ");
+        for(i=0; i<n; i++)
+        {
+            System.out.print(arr3[i]+" ");
+        }
     }
 }
+
