@@ -61,7 +61,7 @@ public class P7 {
             i++;
         }
 
-        /*----------------- sort the array in decending order ---------------------------*/
+        /*----------------- sort the array in descending order ---------------------------*/
         for(i=0;i<n; i++)
         {
             for(k=0;k<n-1;k++)
