@@ -27,7 +27,6 @@ public class P6 {
         System.out.print("Input the number of elements to be stored in the array : ");
         l = sc.nextInt();
         int arr[]   = new int[l];
-//        int count[] =new int[l];
 
         System.out.println("Input "+l+" elements in the array : ");
         for (i = 0; i < l ; i++)
@@ -35,20 +34,20 @@ public class P6 {
             System.out.print("element - "+i+" : ");
             arr[i] = sc.nextInt();
         }
-        int c=0;
+        int count;
         for(i = 0;i<l;i++)
         {
+            count=0;
             for(j=0;j<l;j++)
             {
                 if(arr[j]==arr[i]){
-                    c++;
+                    count++;
                 }
             }
-            if(c==1)
+            if(count==1)
             {
                 System.out.println("The unique elements found in the array are : "+arr[i]);
             }
-            c=0;
         }
 
     }
