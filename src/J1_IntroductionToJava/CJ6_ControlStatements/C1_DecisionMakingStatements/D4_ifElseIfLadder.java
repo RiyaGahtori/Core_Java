@@ -19,24 +19,26 @@ If none of the conditions is true, then the final else statement will be execute
                  statement;
  */
 
-package J1_IntroductionToJava.CJ6_ControlStatements.C1_DecisionMakingStatements;
-import java.util.Scanner;
+                                                        package J1_IntroductionToJava.CJ6_ControlStatements.C1_DecisionMakingStatements;
+                                                        import java.util.Scanner;
 
-public class D4_ifElseIfLadder
-{
-    public static void main(String[] args)
-    {
-        int i;
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the value of i : ");
-        i = sc.nextInt();
-        if (i == 10)
-            System.out.println("i is 10");
-        else if (i == 15)
-            System.out.println("i is 15");
-        else if (i == 20)
-            System.out.println("i is 20");
-        else
-            System.out.println("Error!"+"\nWrong value");
-    }
-}
+                                                        public class D4_ifElseIfLadder
+                                                        {
+                                                            public static void main(String[] args)
+                                                            {
+                                                                int i;
+                                                                Scanner sc = new Scanner(System.in);
+                                                                System.out.print("Enter the value of i : ");
+                                                                i = sc.nextInt();
+                                                                if (i == 10)
+                                                                    System.out.println("i is 10");
+                                                                else if (i == 15)
+                                                                    System.out.println("i is 15");
+                                                                else if (i == 20)
+                                                                    System.out.println("i is 20");
+                                                                else
+                                                                    System.out.println("Error!"+"\nWrong value");
+                                                            }
+                                                        }
+
+
