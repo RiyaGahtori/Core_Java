@@ -18,7 +18,6 @@ If none of the conditions is true, then the final else statement will be execute
              else
                  statement;
  */
-
                                                         package J1_IntroductionToJava.CJ6_ControlStatements.C1_DecisionMakingStatements;
                                                         import java.util.Scanner;
 
