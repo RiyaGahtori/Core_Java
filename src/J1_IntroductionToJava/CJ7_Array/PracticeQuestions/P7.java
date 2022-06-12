@@ -82,6 +82,7 @@ public class P7 {
         {
             System.out.print(arr3[i]+" ");
         }
+
     }
 }
 
