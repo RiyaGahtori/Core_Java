@@ -21,7 +21,8 @@ public class P8 {
     {
         Scanner sc = new Scanner(System.in);
         System.out.print("");
-        int n = sc.nextInt();
+        int l = sc.nextInt();
+        int arr[] = new int[l];
 
     }
 }
