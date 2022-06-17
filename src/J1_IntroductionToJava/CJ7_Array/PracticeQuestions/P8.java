@@ -19,16 +19,29 @@ import java.util.Scanner;
 public class P8 {
     public static void main(String[] args)
     {
+        int l, i, j, count = 0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Input the number of elements to be stored in the array : ");
-        int l = sc.nextInt();
+        l = sc.nextInt();
         int arr[] = new int[l];
 
         System.out.println("Input "+l+" elements in the array : ");
-        for(int i = 0; i<l; i++)
+        for(i = 0; i<l; i++)
         {
-            System.out.println("element - "+i+" : ");
+            System.out.print("element - "+i+" : ");
             arr[i]=sc.nextInt();
+        }
+        System.out.println("The frequency of all elements of an array : ");
+        for(i = 0; i<l; i++)
+        {
+            for(j = 0; j<l; j++)
+            {
+                if(arr[i] == arr[j])
+                {
+                    System.out.println(arr[i]+" occurs "+count+" times");
+                    count++;
+                }
+            }
         }
     }
 }
