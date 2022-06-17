@@ -50,6 +50,5 @@ public class P10 {
                 System.out.print(arr[i]+" ");
             }
         }
-
     }
 }
