@@ -24,6 +24,6 @@ public class P8 {
         int l = sc.nextInt();
         int arr[] = new int[l];
 
-        System.out.println("")
+        System.out.println("Input "+l+" elements in the array : ");
     }
 }
