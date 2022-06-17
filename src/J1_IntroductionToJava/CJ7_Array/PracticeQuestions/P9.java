@@ -12,6 +12,7 @@ Minimum element is : 21
  */
 
 package J1_IntroductionToJava.CJ7_Array.PracticeQuestions;
+
 import java.util.Scanner;
 
 public class P9 {
