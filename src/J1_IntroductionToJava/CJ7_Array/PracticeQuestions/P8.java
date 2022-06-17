@@ -25,5 +25,10 @@ public class P8 {
         int arr[] = new int[l];
 
         System.out.println("Input "+l+" elements in the array : ");
+        for(int i = 0; i<l; i++)
+        {
+            System.out.println("element - "+i+" : ");
+            arr[i]=sc.nextInt();
+        }
     }
 }
