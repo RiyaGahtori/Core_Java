@@ -29,7 +29,7 @@ public class P10 {
 
         for(int i = 0; i<l; i++)
         {
-            System.out.print("element - 0 : "+i);
+            System.out.print("element - "+i+" : ");
             arr[i] = sc.nextInt();
         }
 
@@ -38,15 +38,16 @@ public class P10 {
         {
             if(arr[i]%2==0)
             {
-                System.out.println(arr[i]);
+                System.out.print(arr[i]+" ");
             }
         }
+        System.out.println(" ");
         System.out.println("The Odd elements are : ");
         for(int i = 0; i<l; i++)
         {
             if(arr[i]%2==1)
             {
-                System.out.println(arr[i]);
+                System.out.print(arr[i]+" ");
             }
         }
 
