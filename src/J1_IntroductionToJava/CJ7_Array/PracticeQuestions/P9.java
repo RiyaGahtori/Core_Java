@@ -41,6 +41,7 @@ public class P9 {
                 max = arr[i];
             }
         }
+
         System.out.println("Maximum element is : "+max);
         System.out.println("Minimum element is : "+min);
     }
