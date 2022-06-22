@@ -29,7 +29,7 @@ double pi = 3.14159; // declares and assigns a value of PI.
 
                                                           /* Rules to Declare a Variable */
 /*
-1. A variable name can consist of Capital letters A-Z, lowercase letters a-z digits 0-9, and two special characters such as _ underscore and $ dollar sign.
+1. A variable name can consist of Capital letters A-Z, lowercase letters a-z, digits 0-9, and two special characters such as _ underscore and $ dollar sign.
 2. The first character must not be a digit.
 3. Blank spaces cannot be used in variable names.
 4. Java keywords cannot be used as variable names.
