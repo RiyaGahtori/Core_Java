@@ -31,6 +31,5 @@ public class P1 {
         for (i = 0; i < l; i++) {
             System.out.print(arr[i] + " "); //display every array element
         }
-
     }
 }
