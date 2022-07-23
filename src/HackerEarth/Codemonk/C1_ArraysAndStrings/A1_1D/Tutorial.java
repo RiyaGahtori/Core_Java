@@ -15,10 +15,26 @@ SAMPLE INPUT                                SAMPLE OUTPUT
 7                                           12
 15                                          4
 9
---------------------------------------------------------------------------------------
- */
+--------------------------------------------------------------------------------------*/
 
 package HackerEarth.Codemonk.C1_ArraysAndStrings.A1_1D;
+import java.util.Scanner;
 
 public class Tutorial {
+    public static void main(String[] args) {
+        int i, l;
+        Scanner  sc = new Scanner(System.in);
+        l = sc.nextInt();
+        int arr[] = new int[l];
+        for (i=0;i<l;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+        for (i = l-1; i >= 0; i--) {
+            System.out.println(arr[i]);
+        }
+    }
+
 }
+
+
