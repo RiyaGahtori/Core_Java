@@ -34,7 +34,6 @@ public class Tutorial {
             System.out.println(arr[i]);
         }
     }
-
 }
 
 
