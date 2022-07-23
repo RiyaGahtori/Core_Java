@@ -15,8 +15,7 @@ SAMPLE INPUT                                SAMPLE OUTPUT
 7                                           12
 15                                          4
 9
-
-
+--------------------------------------------------------------------------------------
  */
 
 package HackerEarth.Codemonk.C1_ArraysAndStrings.A1_1D;
