@@ -8,19 +8,14 @@ Following N lines, each contains one integer, i{th} element of the array i.e. A[
 Output:
 Print all the elements of the array in reverse order, each element in a new line.
 --------------------------------------------------------------------------------------
-SAMPLE INPUT
-5
-4
-12
-7
-15
+SAMPLE INPUT                                SAMPLE OUTPUT
+5                                           9
+4                                           15
+12                                          7
+7                                           12
+15                                          4
 9
-SAMPLE OUTPUT
-9
-15
-7
-12
-4
+
 
  */
 
