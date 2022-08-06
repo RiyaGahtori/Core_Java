@@ -49,7 +49,6 @@ public class P6 {
                 System.out.println("The unique elements found in the array are : "+arr[i]);
             }
         }
-
     }
 }
 
