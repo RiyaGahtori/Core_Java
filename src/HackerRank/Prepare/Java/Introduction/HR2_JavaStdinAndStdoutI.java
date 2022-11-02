@@ -31,7 +31,7 @@ Sample Output
 package HackerRank.Prepare.Java.Introduction;
 import java.util.*;
 
-public class HR2_JavaStdinAndStdout {
+public class HR2_JavaStdinAndStdoutI {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
