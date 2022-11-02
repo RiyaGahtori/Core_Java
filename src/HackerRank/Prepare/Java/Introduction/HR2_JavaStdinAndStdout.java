@@ -2,7 +2,7 @@
 package HackerRank.Prepare.Java.Introduction;
 import java.util.*;
 
-public class JavaStdinAndStdout {
+public class HR2_JavaStdinAndStdout {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
