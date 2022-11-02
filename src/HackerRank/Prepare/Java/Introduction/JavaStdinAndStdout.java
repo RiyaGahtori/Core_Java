@@ -1,4 +1,4 @@
 package HackerRank.Prepare.Java.Introduction;
 
-public class JavaStdinandStdoutI {
+public class JavaStdinAndStdout {
 }
