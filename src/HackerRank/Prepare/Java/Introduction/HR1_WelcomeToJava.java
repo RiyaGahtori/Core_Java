@@ -1,5 +1,5 @@
 //Practice printing to stdout.
-package HackerRank;
+package HackerRank.Prepare.Java.Introduction;
 
 public class HR1_WelcomeToJava {
     public static void main(String[] args){
