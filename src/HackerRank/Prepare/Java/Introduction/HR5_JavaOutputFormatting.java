@@ -32,7 +32,7 @@ public class HR5_JavaOutputFormatting {
         {
             String s1=sc.next();
             int x=sc.nextInt();
-            System.out.printf("-15%s%03d",s1,x);
+            System.out.printf("%-15s%03d\n", s1, x);
         }
         System.out.println("================================");
     }
