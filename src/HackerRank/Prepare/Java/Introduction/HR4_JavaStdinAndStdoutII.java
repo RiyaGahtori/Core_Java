@@ -1,7 +1,5 @@
                                                     // Java Stdin and Stdout II
 /*
-
-
 Sample Input
 42
 3.1415
