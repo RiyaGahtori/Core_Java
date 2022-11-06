@@ -18,6 +18,16 @@ Sample Output
 2 x 10 = 20
  */
 package HackerRank.Prepare.Java.Introduction;
+import java.util.*;
 
 public class HR6_JavaLoopsI {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int i=1; i<=10;i++)
+        {
+            int a = n * i;
+            System.out.printf("%d x %d = %d\n",n,i,a);
+        }
+    }
 }
