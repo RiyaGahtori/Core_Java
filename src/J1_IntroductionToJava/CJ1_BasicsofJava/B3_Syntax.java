@@ -5,7 +5,7 @@
 --> System.out.println :
     System is a built-in Java class that contains useful members, such as out, which is short for "output".
     The println() method, short for "print line", is used to print a value to the screen (or a file).
---> public static void main : public is used as an access modifier for a main method . static is used so that it can directly load in memory with creating any instance.
+--> public static void main : public is used as an access modifier for a main method . static is used so that it can directly load in memory without creating any instance.
     void is used because it does not return any value and main is the entry point of program.
 */
 
