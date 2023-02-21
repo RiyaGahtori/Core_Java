@@ -48,7 +48,6 @@ public class V1_Variables {
         int $b = 20;
         int C = 30;
         int c = 40;
-
         int result = _a + $b + C + c;
 
         // Displaying O/P
