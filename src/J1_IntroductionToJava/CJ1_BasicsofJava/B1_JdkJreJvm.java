@@ -62,7 +62,6 @@ whose job is to check that the instructions don’t perform damaging actions.
                                                  System.out.print("I am Riri ");
                                              }
                                          }
-
 /* Commands for compilation and execution =>
 1. Save         ->  class-name.java
 2. Compilation  ->  javac class-name.java
